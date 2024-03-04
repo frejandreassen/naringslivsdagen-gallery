@@ -42,7 +42,7 @@ function HomePage() {
             {/* QR Code Overlay */}
             <div className="absolute top-0 left-0 p-4">
                 <div className="flex flex-col items-center">
-                    <img src="/qr-code.png" alt="QR Code" className="w-64 h-64" />
+                    <img src="/qr-code.png" alt="QR Code" className="w-1/2" />
                     <p className="mt-2 text-gray-700 font-bold text-2xl">Scanna för att skapa bild</p>
                 </div>
             </div>
