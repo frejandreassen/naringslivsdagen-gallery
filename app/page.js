@@ -40,7 +40,7 @@ function HomePage() {
     return (
     <div className="relative flex flex-col items-center justify-center h-screen py-24 bg-gradient-to-br from-purple-200 via-pink-100 to-yellow-100">
             {/* QR Code Overlay */}
-            <div className="absolute top-0 left-0 hidden md-block md:p-4">
+            <div className="absolute top-0 left-0 hidden md:block md:p-4">
                 <div className="flex flex-col items-center">
                     <img src="/qr-code.png" alt="QR Code" className="w-1/2" />
                     <p className="mt-2 text-gray-700 font-bold text-2xl">Scanna för att skapa bild</p>
